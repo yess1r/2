@@ -1,0 +1,6 @@
+web:
+  image: nginx
+  volumes:
+   - ./html:cd/etc/nginx/templates
+  ports:
+   - "8080:80"
